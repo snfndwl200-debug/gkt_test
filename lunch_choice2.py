@@ -87,7 +87,7 @@ st.title("🍽️ 점심 복불복! 한 명은 굶는다! 😱")
 
 # --- 3. 사이드바: 친구 이름 및 메뉴 셋팅 ---
 st.sidebar.header("👥 참가자 명단")
-friends_input = st.sidebar.text_input("친구들의 이름을 쉼표(,)로 구분해서 적어주세요", "은형, 민희, 지연")
+friends_input = st.sidebar.text_input("친구들의 이름을 쉼표(,)로 구분해서 적어주세요", "은형, 아무개")
 # 빈칸 제거 및 리스트화
 friends_list = [f.strip() for f in friends_input.split(",") if f.strip()]
 num_friends = len(friends_list)
